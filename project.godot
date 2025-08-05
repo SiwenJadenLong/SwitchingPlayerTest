@@ -13,11 +13,11 @@ config_version=5
 config/name="Player switching test"
 run/main_scene="uid://ddk856tq7hx0q"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://images/icon.svg"
 
 [autoload]
 
-globals="*res://globals.gd"
+globals="*res://Scripts/globals.gd"
 
 [display]
 

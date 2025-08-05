@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://ddk856tq7hx0q"]
 
-[ext_resource type="PackedScene" uid="uid://bnk221drh25sq" path="res://switchableplayer.tscn" id="1_u52ul"]
-[ext_resource type="Texture2D" uid="uid://3ty3ctmfy5r5" path="res://20250625_125600.jpg" id="1_vonw3"]
-[ext_resource type="PackedScene" uid="uid://bdg7bli5qkcpe" path="res://ghost.tscn" id="3_oi3di"]
+[ext_resource type="PackedScene" uid="uid://bnk221drh25sq" path="res://objects/switchableplayer.tscn" id="1_u52ul"]
+[ext_resource type="Texture2D" uid="uid://3ty3ctmfy5r5" path="res://images/20250625_125600.jpg" id="1_vonw3"]
+[ext_resource type="PackedScene" uid="uid://bdg7bli5qkcpe" path="res://objects/ghost.tscn" id="3_oi3di"]
 
 [node name="Level" type="Node2D"]
 
