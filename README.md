@@ -1,0 +1,1 @@
+Testing posessing and moving objects.
