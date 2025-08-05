@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bdg7bli5qkcpe"]
+
+[ext_resource type="Script" uid="uid://chg13466qes1q" path="res://ghost.gd" id="1_6attn"]
+[ext_resource type="Texture2D" uid="uid://bg74bymhydrsy" path="res://purepng.com-ghostghosthauntpoltergeistspiritghosts-17015277760969rrm8.png" id="1_v5pp4"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6attn"]
+radius = 63.0
+height = 168.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_6attn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_6attn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_v5pp4")
